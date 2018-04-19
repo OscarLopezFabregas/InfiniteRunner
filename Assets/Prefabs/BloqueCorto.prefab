@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4759830700704026}
   - component: {fileID: 212396327741434032}
   - component: {fileID: 61744921520510322}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BloqueCorto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +35,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1642068435195498}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7536762, y: 0.87046576, z: 0}
+  m_LocalPosition: {x: 1.8639019, y: 4.0011234, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
