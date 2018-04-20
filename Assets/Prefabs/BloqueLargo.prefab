@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4002835106049306}
   - component: {fileID: 212589578454996250}
   - component: {fileID: 61083406528453164}
+  - component: {fileID: 114422310334159516}
   m_Layer: 8
   m_Name: BloqueLargo
   m_TagString: Untagged
@@ -35,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1510440248124122}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.42853284, y: -1.2327033, z: 0}
+  m_LocalPosition: {x: 38.773247, y: -27.398918, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -66,6 +67,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.490909, y: 0.6090909}
   m_EdgeRadius: 0
+--- !u!114 &114422310334159516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1510440248124122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07c68a883a9ffac4ba312bdf05f518a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212589578454996250
 SpriteRenderer:
   m_ObjectHideFlags: 1
