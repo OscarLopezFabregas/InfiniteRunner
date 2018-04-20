@@ -7,7 +7,7 @@ public class Bloque : MonoBehaviour {
     public int puntosGanados = 1;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(!haColisionado && collision.gameObject.tag =="Player")
+        if(!haColisionado && collision.collider.gameObject.tag =="Patas")
         {
             NotificationCenter.DefaultCenter().PostNotification(this, "IncrementarPuntos", puntosGanados);
             haColisionado = true;
