@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Item : MonoBehaviour {
 
+    public int puntosGanados = 5;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -13,4 +15,13 @@ public class Item : MonoBehaviour {
 	void Update () {
 		
 	}
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Player")
+        {
+            NotificationCenter.DefaultCenter().PostNotification(this, "IncrementarPuntos", puntosGanados);
+            Destroy(this.gameObject);
+        }
+ 
+    }
 }

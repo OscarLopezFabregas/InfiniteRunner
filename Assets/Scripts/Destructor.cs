@@ -9,8 +9,9 @@ public class Destructor : MonoBehaviour {
     {
         if(collision.tag == "Player")
         {
-            //TODO: show score, show max score!
-            Debug.Break();
+            NotificationCenter.DefaultCenter().PostNotification(this,"PersonajeHaMuerto");
+            GameObject personaje = GameObject.Find("Personaje");
+            personaje.SetActive(false);
         }
 
         Destroy(collision.gameObject);
