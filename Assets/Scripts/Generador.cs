@@ -14,6 +14,7 @@ public class Generador : MonoBehaviour {
     {
         // Generar();
         NotificationCenter.DefaultCenter().AddObserver(this, "PersonajeEmpiezaACorrer");
+        NotificationCenter.DefaultCenter().AddObserver(this, "PersonajeHaMuerto");
 	}
 	
     void PersonajeEmpiezaACorrer(Notification notification)

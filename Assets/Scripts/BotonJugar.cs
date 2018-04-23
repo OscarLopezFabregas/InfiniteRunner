@@ -7,7 +7,6 @@ public class BotonJugar : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        Debug.Log("click");
-        SceneManager.LoadScene("main");
+       SceneManager.LoadScene("main");
     }
 }
