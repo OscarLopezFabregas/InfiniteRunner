@@ -474,6 +474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90d2f4a0e1804bd4981586d02d82ceea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iniciarEnMovimiento: 0
   velocidad: 0.2
 --- !u!1001 &750264901
 Prefab:
@@ -651,6 +652,48 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 979e20483b5292048aea8fdd8e3471c5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &992788023
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4939380774385432, guid: ea93ddfa75796c64580a932ed82c9d15, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4.622218
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939380774385432, guid: ea93ddfa75796c64580a932ed82c9d15, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.0645341
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939380774385432, guid: ea93ddfa75796c64580a932ed82c9d15, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.08586723
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939380774385432, guid: ea93ddfa75796c64580a932ed82c9d15, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939380774385432, guid: ea93ddfa75796c64580a932ed82c9d15, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939380774385432, guid: ea93ddfa75796c64580a932ed82c9d15, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939380774385432, guid: ea93ddfa75796c64580a932ed82c9d15, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939380774385432, guid: ea93ddfa75796c64580a932ed82c9d15, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ea93ddfa75796c64580a932ed82c9d15, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &1048661891 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4746966338355398, guid: efe2b3fbdd9ce5846b2b174614fd7ec5,
@@ -759,6 +802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90d2f4a0e1804bd4981586d02d82ceea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iniciarEnMovimiento: 0
   velocidad: 0.1
 --- !u!1 &1478274962
 GameObject:
