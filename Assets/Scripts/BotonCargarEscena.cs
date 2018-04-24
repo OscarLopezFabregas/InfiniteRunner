@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class BotonJugar : MonoBehaviour {
-    
+public class BotonCargarEscena : MonoBehaviour {
+
+    public string escenaACargar = "main";
 
     private void Start()
     {
@@ -19,6 +20,6 @@ public class BotonJugar : MonoBehaviour {
     }
     void CargarJuego()
     {
-        SceneManager.LoadScene("main");
+        SceneManager.LoadScene(escenaACargar);
     }
 }
