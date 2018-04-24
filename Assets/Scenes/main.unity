@@ -366,6 +366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CamaraGameOver: {fileID: 699629013}
+  gameOverClip: {fileID: 8300000, guid: 2f113aa955836164d9a49514035cbe61, type: 3}
 --- !u!20 &359594594
 Camera:
   m_ObjectHideFlags: 0
