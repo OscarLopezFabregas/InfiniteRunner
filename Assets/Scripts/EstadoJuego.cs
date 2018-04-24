@@ -3,6 +3,8 @@ using System.Collections;
 using System;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using GooglePlayGames;
+using UnityEngine.SocialPlatforms;
 
 public class EstadoJuego : MonoBehaviour
 {
@@ -20,6 +22,9 @@ public class EstadoJuego : MonoBehaviour
         {
             estadoJuego = this;
             DontDestroyOnLoad(gameObject);
+            //Remove line before 
+            PlayGamesPlatform.DebugLogEnabled = true;
+            PlayGamesPlatform.Activate();
         }
         else if (estadoJuego != this)
         {
@@ -31,6 +36,7 @@ public class EstadoJuego : MonoBehaviour
     void Start()
     {
         Cargar();
+        ((PlayGamesPlatform)Social.Active).Authenticate((bool success) => { }, true);
     }
 
     // Update is called once per frame

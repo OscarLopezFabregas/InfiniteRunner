@@ -298,10 +298,10 @@ GameObject:
   - component: {fileID: 383912021}
   - component: {fileID: 383912020}
   - component: {fileID: 383912019}
-  - component: {fileID: 383912018}
   - component: {fileID: 383912017}
   - component: {fileID: 383912016}
   - component: {fileID: 383912015}
+  - component: {fileID: 383912022}
   m_Layer: 0
   m_Name: Medallas
   m_TagString: Untagged
@@ -418,18 +418,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 27.49, y: 4.6, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &383912018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 383912014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71384622a5105aa4cab0f8f7ac1d309c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  escenaACargar: main
 --- !u!102 &383912019
 TextMesh:
   serializedVersion: 3
@@ -498,6 +486,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &383912022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 383912014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c5fcb3c2a9add408f8e246a0519e25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &693767234
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,10 +1051,10 @@ GameObject:
   - component: {fileID: 2118726018}
   - component: {fileID: 2118726017}
   - component: {fileID: 2118726016}
-  - component: {fileID: 2118726015}
   - component: {fileID: 2118726014}
   - component: {fileID: 2118726013}
   - component: {fileID: 2118726012}
+  - component: {fileID: 2118726019}
   m_Layer: 0
   m_Name: Ranking
   m_TagString: Untagged
@@ -1172,18 +1171,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 23.71, y: 4, z: 0}
   m_Center: {x: 0, y: 0.3, z: 0}
---- !u!114 &2118726015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2118726011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71384622a5105aa4cab0f8f7ac1d309c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  escenaACargar: main
 --- !u!102 &2118726016
 TextMesh:
   serializedVersion: 3
@@ -1252,3 +1239,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2118726019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2118726011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 764fb38d10ce7ab4ab42bb205f99f94d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
