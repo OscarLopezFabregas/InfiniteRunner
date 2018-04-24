@@ -22,6 +22,9 @@ public class ActualizarValoresGameOver : MonoBehaviour {
     private void OnEnable()
     {
         total.text = puntuacion.puntuacion.ToString();
-        highScore.text = EstadoJuego.estadoJuego.puntuacionMaxima.ToString();
+        if(EstadoJuego.estadoJuego!=null)
+        {
+            highScore.text = EstadoJuego.estadoJuego.puntuacionMaxima.ToString();
+        }
     }
 }

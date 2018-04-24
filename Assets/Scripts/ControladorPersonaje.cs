@@ -11,7 +11,7 @@ public class ControladorPersonaje : MonoBehaviour {
     float comprobadorRadio = 0.07f;
     public LayerMask mascaraSuelo;
     public float velocidad = 1f;
-
+    private AudioSource audio;
     private bool dobleSalto = false;
 
     private Animator animator;
@@ -22,6 +22,7 @@ public class ControladorPersonaje : MonoBehaviour {
     {
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
+        audio = GetComponent<AudioSource>();
     }
     // Use this for initialization
     void Start ()
@@ -53,6 +54,7 @@ public class ControladorPersonaje : MonoBehaviour {
             {
                 if (enSuelo || !dobleSalto)
                 {
+                    audio.Play();
                     rb2d.velocity = new Vector2(rb2d.velocity.x, fuerzaSalto);
                     //rb2d.AddForce(new Vector2(0, fuerzaSalto));
                     if (!dobleSalto && !enSuelo)
