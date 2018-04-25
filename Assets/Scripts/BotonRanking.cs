@@ -29,7 +29,7 @@ public class BotonRanking : MonoBehaviour {
 
         if(Social.localUser.authenticated)
         {
-            ((PlayGamesPlatform)Social.Active).ShowLeaderboardUI("CgkI4Zrw5d4FEAIQBg ");
+            ((PlayGamesPlatform)Social.Active).ShowLeaderboardUI("CgkI4Zrw5d4FEAIQBg");
         }
         else
         {

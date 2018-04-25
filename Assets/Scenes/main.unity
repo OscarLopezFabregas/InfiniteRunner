@@ -462,7 +462,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bc2ca2a80d433d4987deb3d2f73875c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puntuacion: 0
   marcador: {fileID: 2016797155}
 --- !u!82 &359594599
 AudioSource:
@@ -1770,6 +1769,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 359594595}
     m_Modifications:
+    - target: {fileID: 114657107009825734, guid: efe2b3fbdd9ce5846b2b174614fd7ec5,
+        type: 2}
+      propertyPath: obj.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4746966338355398, guid: efe2b3fbdd9ce5846b2b174614fd7ec5, type: 2}
       propertyPath: m_LocalPosition.x
       value: 20.08
@@ -1802,6 +1806,24 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114657107009825734, guid: efe2b3fbdd9ce5846b2b174614fd7ec5,
+        type: 2}
+      propertyPath: obj.Array.data[0]
+      value: 
+      objectReference: {fileID: 1005048428297734, guid: bc0e50b2302aa354eb0dde0d91f7ffb5,
+        type: 2}
+    - target: {fileID: 114657107009825734, guid: efe2b3fbdd9ce5846b2b174614fd7ec5,
+        type: 2}
+      propertyPath: obj.Array.data[2]
+      value: 
+      objectReference: {fileID: 1510440248124122, guid: 1e0d1f69700836e49b730dbd6e4fe03c,
+        type: 2}
+    - target: {fileID: 114657107009825734, guid: efe2b3fbdd9ce5846b2b174614fd7ec5,
+        type: 2}
+      propertyPath: obj.Array.data[1]
+      value: 
+      objectReference: {fileID: 1510440248124122, guid: 1e0d1f69700836e49b730dbd6e4fe03c,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: efe2b3fbdd9ce5846b2b174614fd7ec5, type: 2}
   m_IsPrefabParent: 0
@@ -2145,6 +2167,11 @@ Prefab:
     - target: {fileID: 4709977593973354, guid: 6b4cceeb0c1ad4d4fb5ad8667be97472, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114062081806181976, guid: 6b4cceeb0c1ad4d4fb5ad8667be97472,
+        type: 2}
+      propertyPath: incrementoVelocidad
+      value: 0.005
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b4cceeb0c1ad4d4fb5ad8667be97472, type: 2}

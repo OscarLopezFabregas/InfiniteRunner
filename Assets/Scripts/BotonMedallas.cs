@@ -6,6 +6,7 @@ using UnityEngine.SocialPlatforms;
 
 public class BotonMedallas : MonoBehaviour {
     AudioSource audioSource;
+
     private TextMesh textoBoton;
 
 

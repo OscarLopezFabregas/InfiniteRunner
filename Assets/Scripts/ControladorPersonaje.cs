@@ -6,6 +6,7 @@ public class ControladorPersonaje : MonoBehaviour {
 
     public float fuerzaSalto = 100f;
     private Rigidbody2D rb2d;
+    public float incrementoVelocidad = 0.01f;
     private bool enSuelo = true;
     public Transform comprobadorSuelo;
     float comprobadorRadio = 0.07f;
@@ -35,6 +36,7 @@ public class ControladorPersonaje : MonoBehaviour {
         if(corriendo)
         {
             rb2d.velocity = new Vector2(velocidad, rb2d.velocity.y);
+            velocidad += incrementoVelocidad;
         }
         animator.SetFloat("VelX", rb2d.velocity.x);
         enSuelo = Physics2D.OverlapCircle(comprobadorSuelo.position, comprobadorRadio, mascaraSuelo);
